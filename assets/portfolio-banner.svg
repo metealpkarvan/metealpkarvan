@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="248" viewBox="0 0 1200 248" role="img" aria-labelledby="title desc">
+  <title id="title">Useful software, thoughtful details.</title>
+  <desc id="desc">Native Mac apps, browser tools and developer utilities, built with Swift, JavaScript and Python.</desc>
+  <rect width="1200" height="248" rx="18" fill="#132A36"/>
+  <path d="M790 0h410v248H690z" fill="#193745"/>
+  <rect x="42" y="39" width="48" height="5" rx="2.5" fill="#99D5C4"/>
+  <text x="42" y="98" fill="#F6F3EB" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">Useful software,</text>
+  <text x="42" y="147" fill="#F6F3EB" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">thoughtful details.</text>
+  <text x="43" y="199" fill="#B8CFD9" font-family="Arial, Helvetica, sans-serif" font-size="23">Mac apps · Browser tools · Developer utilities</text>
+  <rect x="795" y="37" width="348" height="174" rx="12" fill="#E8F0EF"/>
+  <path d="M807 37h324a12 12 0 0 1 12 12v23H795V49a12 12 0 0 1 12-12z" fill="#CBDDDC"/>
+  <circle cx="815" cy="54" r="5" fill="#5E8C86"/>
+  <circle cx="832" cy="54" r="5" fill="#7DAAA2"/>
+  <circle cx="849" cy="54" r="5" fill="#A5C5BE"/>
+  <rect x="816" y="91" width="84" height="97" rx="7" fill="#B8D5CF"/>
+  <path d="m834 119 12-9v18l-12-9zm22-9 12 9-12 9v-18z" fill="#275D55"/>
+  <rect x="919" y="92" width="181" height="9" rx="4" fill="#356A63"/>
+  <rect x="919" y="111" width="132" height="7" rx="3" fill="#A2BFBB"/>
+  <text x="918" y="159" fill="#244B4C" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700">Swift · JS · Python</text>
+  <rect x="919" y="175" width="71" height="5" rx="2" fill="#A2BFBB"/>
+  <rect x="999" y="175" width="101" height="5" rx="2" fill="#A2BFBB"/>
+</svg>
