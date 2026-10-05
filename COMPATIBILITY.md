@@ -18,7 +18,7 @@ The four Mac apps compile x86_64 and arm64 executables into a Universal binary w
 
 | Application | Published verification run |
 | --- | --- |
-| Pati Cepte | [90 core + 27 AppKit checks; native Intel, native arm64 and Universal package passed](https://github.com/metealpkarvan/touch-bar-pet/actions/runs/37303775217) |
+| Pati Cepte | [128 core + 44 AppKit checks; native Intel, native arm64 and Universal package passed](https://github.com/metealpkarvan/touch-bar-pet/actions/runs/37312113310) |
 | Şerit | [44 core + 21 AppKit checks; native Intel, native arm64 and Universal package passed](https://github.com/metealpkarvan/touch-bar-post/actions/runs/37297187041) |
 | Mazi Sandığı | [Native Intel, native arm64 and Universal package passed](https://github.com/metealpkarvan/mazi-sandigi/actions/runs/37265016759) |
 | Touch Bar Arcade | [Native Intel, native arm64 and Universal package passed](https://github.com/metealpkarvan/touch-bar-arcade/actions/runs/37259185558) |
