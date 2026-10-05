@@ -10,7 +10,7 @@ All four ship Universal Intel / Apple Silicon packages for macOS 11+. Touch Bar 
 
 | Project | Purpose | Download |
 | --- | --- | --- |
-| [Pati Cepte · Touch Bar Pet](https://github.com/metealpkarvan/touch-bar-pet) | A living cat, dog or rabbit with touch following, ball/bone fetch, animated feeding, three mini games and local save recovery. | [Latest release](https://github.com/metealpkarvan/touch-bar-pet/releases/latest) |
+| [Pati Cepte · Touch Bar Pet](https://github.com/metealpkarvan/touch-bar-pet) | A living Touch Bar pet with five scenes, earned decorations, permanent adventures, four games and local save recovery. | [Latest release](https://github.com/metealpkarvan/touch-bar-pet/releases/latest) |
 | [Şerit · Touch Bar Post](https://github.com/metealpkarvan/touch-bar-post) | Scrolling announcements, notes and reminders with scenes, a privacy curtain and an optional desktop strip. | [Latest release](https://github.com/metealpkarvan/touch-bar-post/releases/latest) |
 | [Mazi Sandığı](https://github.com/metealpkarvan/mazi-sandigi) | A Turkish nostalgia journal with photo memories, family interview prompts, postcards and two street-inspired games. | [Latest release](https://github.com/metealpkarvan/mazi-sandigi/releases/latest) |
 | [Touch Bar Arcade](https://github.com/metealpkarvan/touch-bar-arcade) | Three native mini games for the MacBook Pro Touch Bar and a playable desktop preview. | [Latest release](https://github.com/metealpkarvan/touch-bar-arcade/releases/latest) |
