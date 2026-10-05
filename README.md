@@ -2,6 +2,18 @@
 
 I build useful tools and playful experiments with Swift, JavaScript and Python. My projects focus on concrete everyday problems, small dependency footprints and clear ways to try the finished result.
 
+## Recent community observations
+
+Three new tools developed from a documented reading of public X and Reddit posts about code review, unread saves and delayed replies. The [research record](https://github.com/metealpkarvan/patch-atlas/blob/main/docs/COMMUNITY-RESEARCH-2026-10-05.md) separates observations, design hypotheses and unverified outcomes, including partial X text and uncertain Reddit timestamps.
+
+| Project | What it does | Try it |
+| --- | --- | --- |
+| [Patch Atlas](https://github.com/metealpkarvan/patch-atlas) | Maps a pasted diff to exact line coordinates, transparent attention cues, per-file checklists and a portable review record. | [Live app](https://metealpkarvan.github.io/patch-atlas/) · [Download](https://github.com/metealpkarvan/patch-atlas/releases/latest) |
+| [Later Lane](https://github.com/metealpkarvan/later-lane) | Selects a reading tray of at most three saved links within your time budget, with intentions, reconsideration dates and takeaways. | [Live app](https://metealpkarvan.github.io/later-lane/) · [Download](https://github.com/metealpkarvan/later-lane/releases/latest) |
+| [Reply Harbor](https://github.com/metealpkarvan/reply-harbor) | Plans a small group of conversations within your energy and time budget, with editable drafts and follow-up calendar files. | [Live app](https://metealpkarvan.github.io/reply-harbor/) · [Download](https://github.com/metealpkarvan/reply-harbor/releases/latest) |
+
+All three have Turkish/English interfaces, local records, JSON backups, standalone ZIPs, design notes and verification records. Their 114 automated checks passed on Linux and native Intel/Apple Silicon Mac runners. The workflows support manual decisions; code is not executed and messages are not sent by the apps.
+
 ## Everyday tools and AI workflows
 
 Five independent browser apps developed from public X/Twitter observations. Each repository documents the original observation, the product hypothesis, design decisions, limitations and a roadmap. The apps run locally in your browser, without an account or AI API key.
@@ -38,4 +50,4 @@ For bugs or ideas, open an issue in the relevant repository.
 
 ---
 
-**Türkçe:** Günlük işleri kolaylaştıran araçlar ve küçük oyunlar geliştiriyorum. Yukarıdaki projeleri canlı olarak deneyebilir, kaynak kodlarını inceleyebilir ve Releases bölümünden indirebilirsin. Yeni beş uygulamanın her biri, açık X/Twitter gönderilerindeki bir gözlemden hareketle tasarlandı; araştırma kaynakları ve tasarım gerekçeleri kendi depolarında yer alıyor.
+**Türkçe:** Günlük işleri kolaylaştıran araçlar ve küçük oyunlar geliştiriyorum. Yukarıdaki projeleri canlı olarak deneyebilir, kaynak kodlarını inceleyebilir ve Releases bölümünden indirebilirsin. Önceki beş uygulamaya, güncel X ve Reddit tartışmalarından tasarlanan Patch Atlas, Later Lane ve Reply Harbor eklendi. Araştırma kaynakları, tasarım gerekçeleri ve doğrulama sınırları depolarda yer alıyor. Bütün projelerin Intel ve Apple Silicon destek yolları uyumluluk kaydında açıklanıyor.
