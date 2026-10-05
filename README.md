@@ -32,6 +32,7 @@ These apps include Turkish and English interfaces, fictional sample data, MIT li
 
 | Project | What it does | Try it |
 | --- | --- | --- |
+| [Pati Cepte · Touch Bar Pet](https://github.com/metealpkarvan/touch-bar-pet) | Adopt and care for a persistent pet, earn accessories and play three native Touch Bar mini games with local save recovery. | [Download the Universal Mac app](https://github.com/metealpkarvan/touch-bar-pet/releases/latest) |
 | [Şerit · Touch Bar Post](https://github.com/metealpkarvan/touch-bar-post) | A native Touch Bar desk for scrolling announcements, notes and reminders, with scenes, a privacy curtain and an optional desktop strip. | [Download the Universal Mac app](https://github.com/metealpkarvan/touch-bar-post/releases/latest) |
 | [Mazi Sandığı](https://github.com/metealpkarvan/mazi-sandigi) | A Turkish nostalgia journal with an illustrated living room, photo memories, family interview prompts, postcards and two street-inspired games. | [Download the Universal Mac app](https://github.com/metealpkarvan/mazi-sandigi/releases/latest) |
 | [Touch Bar Arcade](https://github.com/metealpkarvan/touch-bar-arcade) | Three native mini games for the MacBook Pro Touch Bar, with a playable window preview on other Macs. | [Download the Mac app](https://github.com/metealpkarvan/touch-bar-arcade/releases/latest) |
@@ -52,3 +53,6 @@ For bugs or ideas, open an issue in the relevant repository.
 ---
 
 **Türkçe:** Günlük işleri kolaylaştıran araçlar ve küçük oyunlar geliştiriyorum. Yukarıdaki projeleri canlı olarak deneyebilir, kaynak kodlarını inceleyebilir ve Releases bölümünden indirebilirsin. Önceki beş uygulamaya, güncel X ve Reddit tartışmalarından tasarlanan Patch Atlas, Later Lane ve Reply Harbor eklendi. Araştırma kaynakları, tasarım gerekçeleri ve doğrulama sınırları depolarda yer alıyor. Bütün projelerin Intel ve Apple Silicon destek yolları uyumluluk kaydında açıklanıyor.
+
+
+Pati Cepte adds a saved cat, dog or rabbit companion to the native Mac collection, with free care, three strip games and JSON backup/recovery. Türkçe: Pati Cepte’de evcil hayvan sahiplenebilir, birlikte oyun oynayabilir ve her açılışta kayıtlı ilerleyişten devam edebilirsin.
