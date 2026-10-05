@@ -32,6 +32,7 @@ These apps include Turkish and English interfaces, fictional sample data, MIT li
 
 | Project | What it does | Try it |
 | --- | --- | --- |
+| [Şerit · Touch Bar Post](https://github.com/metealpkarvan/touch-bar-post) | A native Touch Bar desk for scrolling announcements, notes and reminders, with scenes, a privacy curtain and an optional desktop strip. | [Download the Universal Mac app](https://github.com/metealpkarvan/touch-bar-post/releases/latest) |
 | [Mazi Sandığı](https://github.com/metealpkarvan/mazi-sandigi) | A Turkish nostalgia journal with an illustrated living room, photo memories, family interview prompts, postcards and two street-inspired games. | [Download the Universal Mac app](https://github.com/metealpkarvan/mazi-sandigi/releases/latest) |
 | [Touch Bar Arcade](https://github.com/metealpkarvan/touch-bar-arcade) | Three native mini games for the MacBook Pro Touch Bar, with a playable window preview on other Macs. | [Download the Mac app](https://github.com/metealpkarvan/touch-bar-arcade/releases/latest) |
 | [Link Loom](https://github.com/metealpkarvan/link-loom) | Turns scattered links into a private, searchable collection. Cleans tracking parameters and exports bookmarks or Markdown. | [Live app](https://metealpkarvan.github.io/link-loom/) |
