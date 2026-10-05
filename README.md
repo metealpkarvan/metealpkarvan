@@ -16,10 +16,11 @@ Five independent browser apps developed from public X/Twitter observations. Each
 
 These apps include Turkish and English interfaces, fictional sample data, MIT licenses, downloadable releases, automated checks and screenshots of the working interfaces. The research is exploratory; no adoption or effectiveness claims are inferred from the posts.
 
-## Native experiments and developer tools
+## Native Mac apps and developer tools
 
 | Project | What it does | Try it |
 | --- | --- | --- |
+| [Mazi Sandığı](https://github.com/metealpkarvan/mazi-sandigi) | A Turkish nostalgia journal with an illustrated living room, photo memories, family interview prompts, postcards and two street-inspired games. | [Download the Universal Mac app](https://github.com/metealpkarvan/mazi-sandigi/releases/latest) |
 | [Touch Bar Arcade](https://github.com/metealpkarvan/touch-bar-arcade) | Three native mini games for the MacBook Pro Touch Bar, with a playable window preview on other Macs. | [Download the Mac app](https://github.com/metealpkarvan/touch-bar-arcade/releases/latest) |
 | [Link Loom](https://github.com/metealpkarvan/link-loom) | Turns scattered links into a private, searchable collection. Cleans tracking parameters and exports bookmarks or Markdown. | [Live app](https://metealpkarvan.github.io/link-loom/) |
 | [Ship Notes](https://github.com/metealpkarvan/ship-notes) | Turns real Git commits into readable progress notes. Runs locally and exports Markdown or JSON. | [Generated example](https://github.com/metealpkarvan/ship-notes/blob/main/examples/link-loom.md) |
@@ -30,6 +31,8 @@ These apps include Turkish and English interfaces, fictional sample data, MIT li
 - Prefer data under the user's control and a small dependency footprint.
 - Test behavior that could lose data or produce misleading results.
 - Publish usable demos, setup instructions, examples and clear limits.
+
+Native Mac apps ship Universal Intel/Apple Silicon packages. Browser tools and Ship Notes also have native Mac architecture checks. See the [Mac compatibility record](COMPATIBILITY.md).
 
 For bugs or ideas, open an issue in the relevant repository.
 
