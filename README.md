@@ -12,6 +12,7 @@ I build native macOS apps, focused browser tools and developer utilities with **
 | --- | --- | --- |
 | **[Pati Cepte](https://github.com/metealpkarvan/touch-bar-pet)** · Swift / AppKit | Build a living pet world with decorations, adventures, badges and four Touch Bar games. | [Mac download](https://github.com/metealpkarvan/touch-bar-pet/releases/latest) |
 | **[Şerit](https://github.com/metealpkarvan/touch-bar-post)** · Swift / AppKit | Write notes, set reminders and scroll announcements with one simple Touch Bar message editor. | [Mac download](https://github.com/metealpkarvan/touch-bar-post/releases/latest) |
+| **[Run Receipt](https://github.com/metealpkarvan/run-receipt)** · Swift / JavaScript | Inspect Codex and Claude tool calls locally and export a reviewed incident receipt. | [Mac / HTML download](https://github.com/metealpkarvan/run-receipt/releases/latest) |
 | **[Mazi Sandığı](https://github.com/metealpkarvan/mazi-sandigi)** · Swift / AppKit | Preserve photo memories, family stories and postcards in a Turkish nostalgia journal. | [Mac download](https://github.com/metealpkarvan/mazi-sandigi/releases/latest) |
 | **[Patch Atlas](https://github.com/metealpkarvan/patch-atlas)** · JavaScript | Navigate a pasted diff, review file checklists and export your review notes. | [Live app](https://metealpkarvan.github.io/patch-atlas/) |
 | **[Link Loom](https://github.com/metealpkarvan/link-loom)** · JavaScript | Organize links, clean tracking parameters and export portable bookmarks. | [Live app](https://metealpkarvan.github.io/link-loom/) |
@@ -26,7 +27,7 @@ The native Mac apps ship Universal **Intel + Apple Silicon** packages for macOS 
 - **Visible evidence:** publish tests, screenshots, setup instructions and release downloads.
 - **Careful claims:** document research sources, design decisions and testing limits.
 
-Some projects began with public X and Reddit discussions. The [research notes](https://github.com/metealpkarvan/patch-atlas/blob/main/docs/COMMUNITY-RESEARCH-2026-10-05.md) distinguish observed problems from product hypotheses.
+Some projects began with public X, Reddit and developer GitHub discussions. The [research notes](https://github.com/metealpkarvan/patch-atlas/blob/main/docs/COMMUNITY-RESEARCH-2026-10-05.md) distinguish observed problems from product hypotheses. [Run Receipt research](https://github.com/metealpkarvan/run-receipt/blob/main/docs/RESEARCH-2026-10-05.md) records six developer reports from OpenAI and Anthropic repositories.
 
 For bugs, ideas or contributions, open an issue in the relevant repository. Each project includes its own documentation and MIT license.
 
@@ -34,4 +35,4 @@ For bugs, ideas or contributions, open an issue in the relevant repository. Each
 
 Günlük hayatı kolaylaştıran araçlar ve karakteri olan Mac uygulamaları geliştiriyorum. Evcil hayvan oyunundan anı defterine, kod incelemesinden bağlantı düzenlemeye kadar projeleri **indirip deneyebilir**, kaynak kodlarını ve doğrulama kayıtlarını inceleyebilirsin.
 
-[14 projenin tamamı →](https://github.com/metealpkarvan/metealpkarvan/blob/main/PROJECTS.md)
+[15 projenin tamamı →](https://github.com/metealpkarvan/metealpkarvan/blob/main/PROJECTS.md)

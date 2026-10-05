@@ -6,12 +6,13 @@ Downloadable apps, browser demos and developer tools by Mete Alp Karvan. Each pr
 
 ## Native macOS apps
 
-All four ship Universal Intel / Apple Silicon packages for macOS 11+. Touch Bar projects also have playable or usable window controls.
+All five ship Universal Intel / Apple Silicon packages for macOS 11+. Touch Bar projects also have playable or usable window controls.
 
 | Project | Purpose | Download |
 | --- | --- | --- |
 | [Pati Cepte · Touch Bar Pet](https://github.com/metealpkarvan/touch-bar-pet) | A living Touch Bar pet with five scenes, earned decorations, permanent adventures, four games and local save recovery. | [Latest release](https://github.com/metealpkarvan/touch-bar-pet/releases/latest) |
 | [Şerit · Touch Bar Post](https://github.com/metealpkarvan/touch-bar-post) | A simple message editor for Touch Bar notes, reminders and scrolling announcements, with saved selections and local records. | [Latest release](https://github.com/metealpkarvan/touch-bar-post/releases/latest) |
+| [Run Receipt · Oturum Fişi](https://github.com/metealpkarvan/run-receipt) | Offline Codex/Claude tool-call pairing, source evidence and selected Markdown/JSON incident receipts. Also includes standalone HTML and a Node CLI. | [Latest release](https://github.com/metealpkarvan/run-receipt/releases/latest) |
 | [Mazi Sandığı](https://github.com/metealpkarvan/mazi-sandigi) | A Turkish nostalgia journal with photo memories, family interview prompts, postcards and two street-inspired games. | [Latest release](https://github.com/metealpkarvan/mazi-sandigi/releases/latest) |
 | [Touch Bar Arcade](https://github.com/metealpkarvan/touch-bar-arcade) | Three native mini games for the MacBook Pro Touch Bar and a playable desktop preview. | [Latest release](https://github.com/metealpkarvan/touch-bar-arcade/releases/latest) |
 
