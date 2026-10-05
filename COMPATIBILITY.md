@@ -19,11 +19,11 @@ The four Mac apps compile x86_64 and arm64 executables into a Universal binary w
 | Application | Published verification run |
 | --- | --- |
 | Pati Cepte | [180 core + 73 AppKit checks; native Intel, native arm64 and Universal package passed](https://github.com/metealpkarvan/touch-bar-pet/actions/runs/37320771529) |
-| Şerit | [44 core + 21 AppKit checks; native Intel, native arm64 and Universal package passed](https://github.com/metealpkarvan/touch-bar-post/actions/runs/37297187041) |
+| Şerit | [63 core + 33 AppKit checks; native Intel, native arm64 and Universal package passed](https://github.com/metealpkarvan/touch-bar-post/actions/runs/37360848179) |
 | Mazi Sandığı | [Native Intel, native arm64 and Universal package passed](https://github.com/metealpkarvan/mazi-sandigi/actions/runs/37265016759) |
 | Touch Bar Arcade | [Native Intel, native arm64 and Universal package passed](https://github.com/metealpkarvan/touch-bar-arcade/actions/runs/37259185558) |
 
-Pati Cepte stores completed pet progress, world settings, owned decorations and adventure progress in Application Support, with atomic saves and previous-record recovery. Version-1 saves migrate forward to version 2 without losing existing pet progress; old apps cannot read the new format. Acceptance checks also exercised an extracted Universal release package. Şerit uses the public Touch Bar API while the app is frontmost; its desktop strip supports Macs without the hardware.
+Pati Cepte stores completed pet progress, world settings, owned decorations and adventure progress in Application Support, with atomic saves and previous-record recovery. Version-1 saves migrate forward to version 2 without losing existing pet progress; old apps cannot read the new format. Acceptance checks also exercised an extracted Universal release package. Şerit 1.1 uses one message editor and remembers the selected message across launches while preserving version-1 archives. It uses the public Touch Bar API while the app is frontmost; its window strip supports Macs without the hardware. The extracted public Universal download also passed all 33 AppKit checks.
 
 **Testing limits:** physical Touch Bar finger input, ergonomics, every Mac model and every older macOS version have not been verified. Actual notification delivery for Şerit remains a documented device check. macOS 11 is a deployment target. The apps are **ad-hoc signed and not Apple notarized**; use the first-launch instructions in each repository.
 

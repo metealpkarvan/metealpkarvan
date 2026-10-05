@@ -11,7 +11,7 @@ I build native macOS apps, focused browser tools and developer utilities with **
 | Project | What you can do | Try it |
 | --- | --- | --- |
 | **[Pati Cepte](https://github.com/metealpkarvan/touch-bar-pet)** · Swift / AppKit | Build a living pet world with decorations, adventures, badges and four Touch Bar games. | [Mac download](https://github.com/metealpkarvan/touch-bar-pet/releases/latest) |
-| **[Şerit](https://github.com/metealpkarvan/touch-bar-post)** · Swift / AppKit | Keep announcements, notes and reminders on your Touch Bar or desktop strip. | [Mac download](https://github.com/metealpkarvan/touch-bar-post/releases/latest) |
+| **[Şerit](https://github.com/metealpkarvan/touch-bar-post)** · Swift / AppKit | Write notes, set reminders and scroll announcements with one simple Touch Bar message editor. | [Mac download](https://github.com/metealpkarvan/touch-bar-post/releases/latest) |
 | **[Mazi Sandığı](https://github.com/metealpkarvan/mazi-sandigi)** · Swift / AppKit | Preserve photo memories, family stories and postcards in a Turkish nostalgia journal. | [Mac download](https://github.com/metealpkarvan/mazi-sandigi/releases/latest) |
 | **[Patch Atlas](https://github.com/metealpkarvan/patch-atlas)** · JavaScript | Navigate a pasted diff, review file checklists and export your review notes. | [Live app](https://metealpkarvan.github.io/patch-atlas/) |
 | **[Link Loom](https://github.com/metealpkarvan/link-loom)** · JavaScript | Organize links, clean tracking parameters and export portable bookmarks. | [Live app](https://metealpkarvan.github.io/link-loom/) |
