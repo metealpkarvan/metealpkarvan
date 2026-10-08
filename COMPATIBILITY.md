@@ -1,6 +1,6 @@
 # Mac compatibility & verification
 
-Updated 2026-10-05. This record covers the fifteen projects in the [catalogue](PROJECTS.md). It distinguishes processor support, automated checks and physical device testing.
+Updated 2026-10-08. This record covers the fifteen projects in the [catalogue](PROJECTS.md). It distinguishes processor support, automated checks and physical device testing.
 
 ## Supported delivery paths
 
@@ -21,7 +21,7 @@ The five Mac apps compile x86_64 and arm64 executables into a Universal binary w
 | --- | --- |
 | Pati Cepte | [180 core + 73 AppKit checks; native Intel, native arm64 and Universal package passed](https://github.com/metealpkarvan/touch-bar-pet/actions/runs/37320771529) |
 | Şerit | [1.2.0: 71 core + 44 AppKit checks passed on native Intel and arm64](https://github.com/metealpkarvan/touch-bar-post/actions/runs/37369937036) · [Universal release verified locally; public Intel download passed 44 AppKit checks](https://github.com/metealpkarvan/touch-bar-post/releases/tag/v1.2.0) |
-| Run Receipt | [56 core/CLI tests + 29 WebKit checks per delivery surface on native Intel and arm64](https://github.com/metealpkarvan/run-receipt/actions/runs/37365734051) · [Universal release verified locally](https://github.com/metealpkarvan/run-receipt/releases/tag/v1.0.0) |
+| Run Receipt | [All seven CI jobs passed: 56 core/CLI tests, 29 WebKit checks per delivery surface on native Intel and arm64, and Universal packaging](https://github.com/metealpkarvan/run-receipt/actions/runs/37366963409) · [1.0.0 release](https://github.com/metealpkarvan/run-receipt/releases/tag/v1.0.0) |
 | Mazi Sandığı | [Native Intel, native arm64 and Universal package passed](https://github.com/metealpkarvan/mazi-sandigi/actions/runs/37265016759) |
 | Touch Bar Arcade | [Native Intel, native arm64 and Universal package passed](https://github.com/metealpkarvan/touch-bar-arcade/actions/runs/37259185558) |
 
@@ -31,7 +31,7 @@ Pati Cepte stores completed pet progress, world settings, owned decorations and 
 
 Şerit uses the public Touch Bar API while the app is frontmost; its window strip supports Macs without the hardware. macOS owns the Control Strip and may compress the requested message width to the available app space.
 
-Run Receipt opens user-selected logs in a local WebKit window. The source UI and standalone HTML each passed 27 page checks plus two native export bridge checks on both native Mac architectures. The public Universal download was rechecked for its version, signature, both processor slices and the 29 packaged integration checks. The Node CLI also has Linux and Windows coverage; Windows skips one Unix symlink test.
+Run Receipt opens user-selected logs in a local WebKit window. The source UI and standalone HTML each passed 27 page checks plus two native export bridge checks on both native Mac architectures. The Universal CI package passed the same 29 packaged integration checks and confirmed both processor slices. The public Universal download was rechecked for its version, signature, both processor slices and the 29 packaged integration checks. The Node CLI also has Linux and Windows coverage; Windows skips one Unix symlink test. The [live demo](https://metealpkarvan.github.io/run-receipt/) is available after a [successful Pages deployment](https://github.com/metealpkarvan/run-receipt/actions/runs/37365733976); its four runtime files returned HTTP 200 and matched [published source commit 886a94d](https://github.com/metealpkarvan/run-receipt/commit/886a94db88a6b30fc98c5851fa8fb41a2ef13804) byte for byte on 8 October.
 
 **Testing limits:** physical Touch Bar finger input, ergonomics, every Mac model and every older macOS version have not been verified. Actual notification delivery for Şerit remains a documented device check. macOS 11 is a deployment target. The apps are **ad-hoc signed and not Apple notarized**; use the first-launch instructions in each repository.
 
@@ -43,11 +43,15 @@ All nine browser projects run rule checks with native Node.js on Intel and arm64
 
 Patch Atlas, Later Lane and Reply Harbor ZIPs open directly through `index.html` without Node.js or a local server. Local-file startup, sample interaction and record creation were checked with Chromium and an Intel macOS WKWebView harness. Their live apps passed offline reopening checks in Chromium. Native arm64 CI checks the rules and standalone build separately.
 
+Link Loom 1.1.0 protects unreadable saved data, preserves the last readable collection and edit draft, and offers an untouched original-text download before explicit backup recovery. It rejects detected stale writes and applies the same 2,000,000-byte UTF-8 bound to accepted collections and portable JSON backups. [Local verification](https://github.com/metealpkarvan/link-loom/blob/20b7f1fde560dbcd4b354f1fad00344f0cfaa1e0/docs/VERIFICATION.md) passed 60 rule/storage tests and 38 Chromium checks, including two-tab recovery, metadata preservation, downloaded Unicode recovery text, stale changes and 320/390-pixel layouts. Its [Pages deployment passed](https://github.com/metealpkarvan/link-loom/actions/runs/37810039301) at that same source commit. Its JavaScript source is independent of processor architecture; the ZIP uses local HTTP to load its ES modules.
+
+The anonymous [1.1.0 ZIP download](https://github.com/metealpkarvan/link-loom/releases/tag/v1.1.0) matched its SHA-256 manifest and every packaged file matched that source commit. Six live runtime assets also matched the same source. The live app and the extracted public ZIP each passed eight Chromium smoke checks, covering saved records reopening, protected writes, recovery controls and a 320-pixel view, with no JavaScript page errors. A separate local Tab/Enter flow verified basic keyboard activation.
+
 Ship Notes installs and runs its CLI on both Mac architectures, with Linux and Windows coverage retained.
 
 | Project | Native Mac verification |
 | --- | --- |
-| Link Loom | [Both Mac jobs passed](https://github.com/metealpkarvan/link-loom/actions/runs/37264515440) |
+| Link Loom | [1.1.0: 60 rule/storage tests and ZIP packaging passed on native Intel and arm64; Linux Node 22/24 jobs also passed](https://github.com/metealpkarvan/link-loom/actions/runs/37810039287) |
 | Context Capsule | [Both Mac jobs passed](https://github.com/metealpkarvan/context-capsule/actions/runs/37264518508) |
 | Veil Paste | [Both Mac jobs passed](https://github.com/metealpkarvan/veil-paste/actions/runs/37264521936) |
 | Claim Lantern | [Both Mac jobs passed](https://github.com/metealpkarvan/claim-lantern/actions/runs/37264525294) |
